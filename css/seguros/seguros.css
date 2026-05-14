@@ -1,0 +1,68 @@
+.advantages {
+  background: var(--g12);
+  padding: 120px 0px;
+}
+
+.advantages__grid-cards {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.advantages__grid-cards > div img {
+  width: 32px;
+}
+
+.faq {
+  padding: 120px 0px;
+}
+
+.faq h2 {
+  margin-bottom: 88px;
+}
+
+.content-faq div:nth-child(odd) {
+  background: var(--g1);
+}
+
+.content-faq div {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 40px;
+  gap: 16px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.content-faq dt {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.content-faq div::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+
+  position: absolute;
+  top: 28px;
+  left: 20px;
+
+  background: var(--p5);
+}
+
+.content-faq dt::after {
+  display: inline-block;
+  content: "";
+  width: 14px;
+  height: 6px;
+
+  background: url("../../img/icones/seta-abrir.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content-faq div dd {
+  font-size: 1.125rem;
+}

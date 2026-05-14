@@ -1,0 +1,102 @@
+:root {
+  /*GRAY COLORS*/
+  --w: #fff;
+  --g1: #f7f7f7;
+  --g2: #ededed;
+  --g3: #dedede;
+  --g4: #cccccc;
+  --g5: #b2b2b2;
+  --g6: #9c9c9c;
+  --g7: #717171;
+  --g8: #595959;
+  --g9: #404040;
+  --g10: #2e2e2e;
+  --g11: #111111;
+  --g12: #000000;
+
+  /*BRAND COLORS*/
+  --p1: #332200;
+  --p2: #664400;
+  --p3: #a66f00;
+  --p4: #e4a30b;
+  --p5: #ffbb00;
+
+  /*GRADIENT COLORS*/
+  --gradient1: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+}
+
+.g0 {
+  color: var(--w);
+}
+
+.g1 {
+  color: var(--g1);
+}
+
+.g2 {
+  color: var(--g2);
+}
+
+.g3 {
+  color: var(--g3);
+}
+
+.g4 {
+  color: var(--g4);
+}
+
+.g5 {
+  color: var(--g5);
+}
+
+.g6 {
+  color: var(--g6);
+}
+
+.g7 {
+  color: var(--g7);
+}
+
+.g8 {
+  color: var(--g8);
+}
+
+.g9 {
+  color: var(--g9);
+}
+
+.g10 {
+  color: var(--g10);
+}
+
+.g11 {
+  color: var(--g11);
+}
+
+.g12 {
+  color: var(--g12);
+}
+
+.g13 {
+  color: var(--g13);
+}
+
+.p1 {
+  color: var(--p1);
+}
+
+.p2 {
+  color: var(--p2);
+}
+
+.p3 {
+  color: var(--p3);
+}
+
+.p4 {
+  color: var(--p4);
+}
+
+.p5 {
+  color: var(--p5);
+}

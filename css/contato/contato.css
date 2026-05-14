@@ -1,0 +1,147 @@
+#contato {
+  background: linear-gradient(var(--g11) 568px, var(--g2) 0px);
+}
+
+.bg-termos-contato {
+  background: var(--g11);
+  padding: 60px 0px;
+}
+
+.content-contact {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+
+  padding: 20px 0px 120px 0px;
+}
+
+.contact {
+  background: var(--g12);
+  border-radius: 5px 0 0 5px;
+
+  padding: 60px;
+  position: relative;
+}
+
+.contact:after {
+  content: "";
+  width: 52px;
+  height: 52px;
+
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+
+  background: url("../../img/dec/top-right.svg");
+}
+
+.contact img {
+  width: auto;
+}
+
+.contact a {
+  color: var(--g4);
+}
+
+.contact-forms {
+  padding: 60px 40px 40px 60px;
+
+  background: var(--w);
+  position: relative;
+}
+
+.contact-forms:after {
+  content: "";
+  width: 52px;
+  height: 52px;
+
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+
+  background: url("../../img/dec/bottom-right.svg");
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.forms label {
+  display: block;
+  font:
+    500 1rem/1.5 "Poppins",
+    sans-serif;
+  margin-bottom: 4px;
+}
+
+.forms input[type="text"],
+.forms input[type="email"],
+.forms textarea {
+  width: 100%;
+  padding: 12px;
+
+  color: var(--g7);
+  font:
+    400 1rem/1.5 "Roboto",
+    sans-serif;
+
+  background: var(--g1);
+  border: var(--g2);
+  border-radius: 5px;
+  border: 2px solid transparent;
+
+  transition: 0.3s ease;
+}
+
+.forms input[type="text"]:focus,
+.forms input[type="email"]:focus,
+.forms textarea:focus {
+  outline: none;
+  border: 2px solid var(--p5);
+  background: var(--w);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.spanded-col2 {
+  grid-column: span 2;
+}
+
+.store {
+  padding: 120px 0px;
+}
+
+.store-informations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+
+  background: var(--w);
+  box-shadow: 0 1 2 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 5px 5px;
+
+  padding: 32px 32px;
+}
+
+.store-informations h3 {
+  align-items: center;
+  gap: 12px;
+}
+
+.store-informations h3::before {
+  display: inline-block;
+  content: "";
+  width: 12px;
+  height: 8px;
+
+  background: var(--p5);
+}
+
+.store-contato {
+  padding-left: 12px;
+  border-left: 2px solid var(--g2);
+}
+
+.store-informations img {
+  width: auto;
+}

@@ -1,0 +1,46 @@
+.hero--bike{
+  background: var(--g11);
+  padding: 60px 0px;
+}
+
+.informations-bike{
+  padding: 120px 0px;
+}
+
+.informations-bike .bg__card-bike{
+  background: linear-gradient(90deg, var(--w) 30%, var(--g11) 30%);
+  padding: 60px 0px;
+}
+
+.informations__card-bike{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+}
+
+.informations__text h3::before{
+  content: "";
+  width: 12px;
+  height: 8px;
+  display: block;
+
+  background: var(--p5);
+  margin-bottom: 8px;
+}
+
+.informations__card-bike ul li img{
+  width: auto;
+}
+
+.informations__card-bike ul li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.informations__card-bike .btn-gradient span{
+  margin-left: 16px;
+}

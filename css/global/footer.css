@@ -1,0 +1,49 @@
+footer {
+  background: var(--g12);
+  padding: 60px 0px 32px;
+}
+
+footer img {
+  width: auto;
+}
+
+footer > div {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  align-items: start;
+}
+
+.footer__contact ul li:nth-child(even)::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+
+  background: var(--g5);
+}
+
+.footer__contact ul li:nth-child(2)::after{
+  margin: 18px 0px;
+}
+
+.footer__contact ul li:nth-child(4)::after{
+  margin-top: 22px;
+}
+
+footer nav ul li a{
+  color: var(--g5) ;
+  transition: 0.3s ease;
+}
+
+footer nav ul li a:hover{
+  color: var(--g3) ;
+}
+
+.social-icons {
+  margin-top: 0px;
+}
+
+.footer__politicas {
+  grid-column: 1 / -1;
+  margin-top: 80px;
+}

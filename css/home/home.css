@@ -1,0 +1,332 @@
+.hero {
+  background: var(--g12);
+  box-shadow: 0px -120px inset var(--w);
+}
+
+.hero > div {
+  flex-wrap: nowrap;
+}
+
+.hero-div {
+  flex: 1;
+}
+
+.hero-img {
+  width: 50%;
+  flex: 1;
+
+  border-radius: 5px;
+}
+
+.hero h1 {
+  color: var(--w);
+  margin-bottom: 32px;
+}
+
+h1 span,
+h2 span {
+  color: var(--p5);
+}
+
+.hero p {
+  color: var(--g5);
+  margin-bottom: 20px;
+}
+
+/* STYLES SECTION BIKES */
+
+.section-bike {
+  padding: 120px 0px;
+}
+
+.bike__div-cards {
+  flex-wrap: wrap;
+}
+
+.bike__div-cards .bike__cards {
+  flex: 1;
+}
+
+.bike__cards .bike__cards-img img {
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.bike__cards .bike__cards-price {
+  position: relative;
+
+  padding-left: 20px;
+}
+
+.bike__cards .bike__cards-price::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+
+  position: absolute;
+  left: 0px;
+  top: 16px;
+
+  background: var(--p5);
+}
+
+.bike__cards .bike__cards-price h3 {
+  color: var(--g11);
+  margin-bottom: 8px;
+}
+
+.bike__cards .bike__cards-price P {
+  color: var(--g8);
+}
+
+/* STYLES SECTION TECNOLOGY */
+
+.tecnology {
+  background: var(--g11);
+  flex-wrap: wrap;
+  box-shadow:
+    0px 80px inset var(--w),
+    0px -80px inset var(--w);
+
+  position: relative;
+}
+
+.tecnology::after {
+  content: "";
+  width: 52px;
+  height: 52px;
+
+  background: url("/img/dec/bottom-left.svg");
+
+  position: absolute;
+  left: 40px;
+  bottom: 120px;
+}
+
+.tecnology__div-text {
+  padding: 160px 0px;
+  flex: 1;
+}
+
+.tecnology__p-uper {
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  line-height: 32px;
+  letter-spacing: 1.5%;
+  text-transform: uppercase;
+
+  color: var(--g5);
+}
+
+.tecnology__div-text p {
+  margin-bottom: 20px;
+  color: var(--g5);
+}
+
+.tecnology__div-text h2 {
+  margin-bottom: 32px;
+  color: var(--w);
+}
+
+.tecnology__card-qualities img {
+  width: 24px;
+  height: 24px;
+}
+
+.tecnology__card-qualities h3 {
+  color: var(--w);
+  margin-bottom: 8px;
+}
+
+.tecnology__card-qualities p {
+  color: var(--g5);
+}
+
+.tecnology__img {
+  flex: 1;
+  height: 1120px;
+}
+
+.tecnology__img img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+/* STYLES SECTION PARTNES */
+
+.partnes {
+  padding: 120px 0px;
+}
+
+.partnes h2 {
+  margin-bottom: 60px;
+}
+
+.partnes ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.partnes ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 42px 0px;
+  border-left: 2px solid var(--g2);
+}
+
+.partnes ul li:first-child,
+.partnes ul li:nth-child(5) {
+  border-left: none;
+}
+
+.partnes ul li:nth-child(n + 5) {
+  border-top: 2px solid var(--g2);
+}
+
+.partnes ul li img {
+  width: auto;
+}
+
+@media (max-width: 1024px) {
+  .partnes ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partnes ul li:first-child,
+  .partnes ul li:nth-child(2) {
+    border-bottom: 2px solid var(--g2);
+  }
+
+  .partnes ul li:nth-child(odd) {
+    border-left: none;
+  }
+}
+
+/* STYLES SECTION TERSTIMONIALS */
+
+.testimonials {
+  position: relative;
+  background: var(--p5);
+}
+
+.testimonials__img {
+  width: 50%;
+  height: 672px;
+
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.testimonials__img img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.testimonials__div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 296px 80px 80px 80px;
+
+  position: relative;
+}
+
+.testimonials__div > p {
+  max-width: 28ch;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+
+  margin-bottom: 32px;
+}
+
+.testimonials__div span {
+  color: var(--p2);
+}
+
+.testimonials__div::after {
+  content: "";
+  width: 52px;
+  height: 52px;
+
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+  background: url("/img/dec/top-left-p.svg");
+}
+
+/* STYLES SECTION INSURANCE */
+
+.insurance {
+  padding: 60px 0px 120px 0px;
+
+  background: var(--g11);
+}
+
+.insurance h2 {
+  margin-bottom: 60px;
+}
+
+.insurance__cards-price {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.insurance__price {
+  padding: 40px;
+  height: fit-content;
+  background: var(--g12);
+
+  border-radius: 5px;
+}
+
+.insurance__price h3 {
+  font: 600 36px/48px;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+
+.insurance__price ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.insurance__price ul li::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+
+  display: inline-block;
+  background: url("/img/icones/lista.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.insurance__price span {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.insurance__price span::after {
+  content: "mensal";
+  display: block;
+
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--g6);
+}

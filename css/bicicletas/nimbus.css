@@ -1,0 +1,124 @@
+.section-bike-description {
+  padding: 60px 0px;
+}
+
+.grid-img-bike {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+  flex: 1;
+}
+
+.grid-img-bike img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.grid-img-bike img:nth-child(1) {
+  grid-column: 1 / -1;
+}
+
+.bike-description {
+  flex: 1;
+}
+
+.bike-description h3 {
+  text-transform: uppercase;
+}
+
+.cta-description p {
+  color: var(--g6);
+
+  background: var(--g12);
+
+  border-radius: 5px;
+  padding: 2px 8px;
+}
+
+.advantages {
+  background: var(--g12);
+  padding: 120px 0px;
+}
+
+.bike-description__grid-cards {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+
+  background: var(--g12);
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.bike-description__grid-cards div img {
+  width: 24px;
+}
+
+.bike-description__table ul {
+  padding: 32px;
+  border-radius: 5px;
+
+  background: var(--g12);
+  color: var(--g4);
+
+  font-family: "Roboto";
+  letter-spacing: 1.5%;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.bike-description__table ul li {
+  border-bottom: 1px solid var(--g11);
+
+  padding: 8px 0px;
+}
+
+.bike-description__table ul li:nth-child(1) {
+  padding-top: 0px;
+}
+
+.bike-description__table ul li:nth-child(6) {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.cta-seguro {
+  background: var(--g11);
+  box-shadow:
+    0px -120px inset var(--g12),
+    0px 120px inset var(--w);
+}
+
+.cta-seguro > div {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-seguro__div {
+  flex: 1;
+}
+
+.cta-seguro__div p {
+  margin-bottom: 20px;
+}
+
+.cta-seguro-img {
+  width: 100%;
+  flex: 1;
+
+  border-radius: 5px;
+}
+
+.cta-seguro h1 {
+  width: 502px;
+  color: var(--w);
+  margin-bottom: 32px;
+}
+
+.hero p {
+  color: var(--g5);
+  margin-bottom: 20px;
+}

@@ -1,2 +1,26 @@
-@import './header.css';
-@import './footer.css';
+/* ESTILOS INICIAIS */
+@import "./global/global.css";
+@import "./global/tipografy.css";
+@import "./global/colors.css";
+@import "./global/spacing.css";
+@import "./global/components.css";
+
+/* ESTILOS DA PAGINÁ HOME */
+@import "./global/header.css";
+@import "./home/home.css";
+@import "./global/footer.css";
+
+/* ESTILOS DA PAGINÁ BICICLETAS */
+@import "./bicicletas/bicicletas.css";
+@import "./bicicletas/nimbus.css";
+
+/* ESTILOS DA PAGINÁ ORÇAMENTO */
+@import "./orcamento/orcamento.css";
+
+/* ESTILOS DA PAGINÁ SEGUROS */
+@import "./seguros/seguros.css";
+
+/* ESTILOS DA PAGINÁ CONTATO */
+@import "./contato/contato.css";
+
+@import "./termos/termos.css";
